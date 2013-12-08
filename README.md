@@ -34,3 +34,8 @@ Version 2.0 of the Utopian Engine features:
 * JAVASCRIPT! Yes, the Utopian Engine supports JavaScript, and makes the user's input available to JavaScript for dynamic event-handling. With a bit of finagling, it is possible to make an RPG. Since the entire Engine will be in JavaScript, this will be MUCH more robust.
 * Two-dimensional array of Rooms, each of which can be completely independent of one another, or modify one another
 * Each Room has a list of Roomstates - when certain actions happen, developers can script the rooms to change, subtly or otherwise. Basically everything changes about the room when its state changes.
+
+In addition to the features in the Utopian Engine v2.0, UtopiaJS will feature:
+
+* The ability to upload games, and the server will keep a record of recent/popular games.
+* The ability to author games directly from your browser.
