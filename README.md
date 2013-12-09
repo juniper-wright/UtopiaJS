@@ -39,3 +39,5 @@ In addition to the features in the Utopian Engine v2.0, UtopiaJS will feature:
 
 * The ability to upload games, and the server will keep a record of recent/popular games.
 * The ability to author games directly from your browser.
+* User login, so you can associate games with your account.
+* The ability to track how many times people have played your game.
