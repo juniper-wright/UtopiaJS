@@ -1,0 +1,26 @@
+{
+    "orm": {
+        "enabled": true,
+
+        "models": [
+            "Account",
+            "Role",
+            "Permission",
+            "User"
+        ],
+
+        "modelAssociations": {
+            "Account": {},
+            "Role": {
+                "belongsTo": ["Account"],
+                "hasMany": ["Permission"]
+            },
+            "Permission": {
+                "hasMany": ["Role"]
+            },
+            "User": {
+              "belongsTo": ["Account", "Role"]
+            }
+        }
+    }
+}
