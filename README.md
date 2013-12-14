@@ -37,7 +37,13 @@ Version 2.0 of the Utopian Engine features:
 
 In addition to the features in the Utopian Engine v2.0, UtopiaJS will feature:
 
-* The ability to upload games, and the server will keep a record of recent/popular games.
-* The ability to author games directly from your browser.
-* User login, so you can associate games with your account.
-* The ability to track how many times people have played your game.
+* An interactive system built around the Engine:
+	* The ability to upload games, and the server will keep a record of recent/popular games.
+	* The ability to author games directly from your browser.
+	* User login, so you can associate games with your account.
+	* The ability to track how many times people have played your game.
+* Miscellaneous upgrades to the UtopiaScript language and UtopianEngine:
+	* RequireItem, AddItem, and TakeItem will support list of items to be given/taken
+	* Six new directions will be built in (NE, SE, SW, NW, Up, and Down)
+	* Rooms will be stored as a graph, instead of a 2-dimensional array.
+	* Creation of variables. Thanks to JSON, game designers will be able to create and reference variables in UtopiaScript.
